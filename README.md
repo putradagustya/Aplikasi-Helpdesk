@@ -13,6 +13,11 @@ Langkah Jalankan program
 
 5. php artisan migrate => untuk Jalankan migration (jika ada database)
 
+6. php artisan db:seed => untuk masukin data user
+
+7. php artisan db:seed --class=ReportSeeder => untuk masukin data dummy selama 3 tahun terakhir
+
+
 jika sudah maka jalankan
 
 1. npm run dev => untuk Build frontend (React/Inertia)
